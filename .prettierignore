@@ -1,0 +1,17 @@
+.env
+.env.local
+.env.development
+.env.production
+
+# Editors and IDEs
+.idea/
+.vscode/
+
+# Some ingored files/directories
+src/uploads/
+dist/
+node_modules/
+
+# Logs
+yarn-error.log
+yarn-debug.log*

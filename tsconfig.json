@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "es6"
+    ],
+
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "esModuleInterop": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "newLine": "lf"
+  },
+}
