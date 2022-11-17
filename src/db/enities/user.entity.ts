@@ -6,9 +6,6 @@ export class UserEntity extends CustomEntity {
 	@PrimaryColumn()
 	id: number;
 
-	@Column()
-	username: string;
-
 	@Column({
 		default: false
 	})

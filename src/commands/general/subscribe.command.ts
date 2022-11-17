@@ -16,7 +16,7 @@ export default class SubscribeCommand extends Command {
 		const { id, username } = ctx.from;
 
 		let user = await UserEntity.findOneBy({ id });
-		if (!user) user = UserEntity.create({ id, username });
+		if (!user) user = UserEntity.create({ id });
 
 		user.isSubscribed = !user.isSubscribed;
 		await user.save();
